@@ -1,32 +1,27 @@
 * {
-        margin: 10px;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body {
-        display: flex;
-        flex-direction: column;
-        width: 5000px;
-        height: 4000px
-        
-    }
-    element.style {
-        width: 4431;
-        height: 1193;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.road1 {
-    image-resolution: calc(100%);
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
 }
-.road2 {
-    image-resolution: calc(100%);
+
+.road {
+  flex: 1;
+  overflow: hidden;
 }
-.road3 {
-    width: 2000px;
+
+.road img {
+  width: 100%;
+  height: 100%;
+
 }
-.road4 {
-    width: 2000px;
-}
+
 .box {
     display: flex;
     align-items: center;
@@ -64,9 +59,5 @@
         top: 0;
     
     }
- 
-
-
-
 
 }
