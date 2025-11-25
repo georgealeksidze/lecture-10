@@ -22,42 +22,140 @@ body {
 
 }
 
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    color: white;
+.wile {
     position: absolute;
-    animation-name: bluebox;
-    animation-duration: 10s;
+    animation-name: wile;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
     
     
 }
-@keyframes bluebox {
+.wile img {
+    height: 50%;
+    width: 50%;
+}
+@keyframes wile {
     0% {
-        top: 0;
+         left: 0%;       
+    }
+    100% {
+        left: 100%; 
+        
+    }
+    
+   
+
+}
+.mariobrother {
+    position: absolute;
+    animation-name: mariobrother;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    top: 20%;
+    animation-timing-function: ease-in;
+    
+    
+}
+.mariobrother img {
+    height: 100%;
+    width: 100%;
+
+}
+@keyframes mariobrother {
+    0% {
+         left: 100%;       
+    }
+    100% {
         left: 0%;
         
     }
-    25% {
-        top: 0;
-        left: calc(100% - 100px);
-    }
-    50% {
-        top: calc(100% - 100px);
-        left: calc(100% - 100px);
-    }
-    75% {
-        top: calc(100% - 100px);
-        left: 0;
+
+}
+
+
+.mario {
+    position: absolute;
+    animation-name: mario;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top: 57%;
+    animation-timing-function: ease-in;
+    
+    
+}
+.mario img {
+    height: 50%;
+    width: 50%;
+}
+@keyframes mario {
+    0% {
+         left: 0%;       
     }
     100% {
-        top: 0;
-    
+        left: 100%; 
+        
     }
-
+}
+.marioface {
+    position: absolute;
+    animation-name: marioface;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top: 95%;
+    animation-timing-function: ease-in;
+    
+}
+.marioface img {
+    height: 50%;
+    width: 50%;
+}
+@keyframes marioface {
+    0% {
+        left: 100%;     
+    }
+    100% {
+        left: 0%;
+    }
+    
+}
+.logo {
+    position: absolute;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    top: 10%;
+}
+.logo img {
+    height: 50%;
+    width: 50%;
+}
+@keyframes logo {
+    0% {
+        left: 100%;     
+    }
+    100% {
+        left: 80%;
+    }
+}
+.star {
+    position: absolute;
+    animation-name: star;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+    top: 70%;
+}
+.star img {
+    height: 20%;
+    width: 20%;
+}
+@keyframes star {
+    0% {
+        left: 50%     
+    }
+    100% {
+        left: 100%; 
+    }
 }
