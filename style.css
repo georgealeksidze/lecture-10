@@ -50,24 +50,24 @@ body {
 .mariobrother {
     position: absolute;
     animation-name: mariobrother;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
-    top: 20%;
+    top: 15%;
     animation-timing-function: ease-in;
     
     
 }
 .mariobrother img {
-    height: 100%;
-    width: 100%;
+    height: 40%;
+    width: 40%;
 
 }
 @keyframes mariobrother {
     0% {
-         left: 100%;       
+         left: 0%;       
     }
     100% {
-        left: 0%;
+        left: 100%; 
         
     }
 
@@ -79,18 +79,18 @@ body {
     animation-name: mario;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    top: 57%;
+    top: 40%;
     animation-timing-function: ease-in;
     
     
 }
 .mario img {
-    height: 50%;
-    width: 50%;
+    height: 25%;
+    width: 25%;
 }
 @keyframes mario {
     0% {
-         left: 0%;       
+         left: 0%;        
     }
     100% {
         left: 100%; 
@@ -100,9 +100,9 @@ body {
 .marioface {
     position: absolute;
     animation-name: marioface;
-    animation-duration: 3s;
+    animation-duration:6s;
     animation-iteration-count: infinite;
-    top: 95%;
+    top: 85%;
     animation-timing-function: ease-in;
     
 }
