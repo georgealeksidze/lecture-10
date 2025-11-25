@@ -3,7 +3,30 @@
         padding: 0;
         box-sizing: border-box;
     }
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 5000px;
+        height: 4000px
+        
+    }
+    element.style {
+        width: 4431;
+        height: 1193;
+    }
 
+.road1 {
+    image-resolution: calc(100%);
+}
+.road2 {
+    image-resolution: calc(100%);
+}
+.road3 {
+    width: 2000px;
+}
+.road4 {
+    width: 2000px;
+}
 .box {
     display: flex;
     align-items: center;
